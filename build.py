@@ -67,8 +67,7 @@ def page(name: str) -> str:
 {body.strip()}
 </main>
 <footer class="site">
-  <p>Cadence is made by {COMPANY}, Sacramento, California, United States.<br>
-  <a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="{up}support/">Support</a> · <a href="{up}privacy/">Privacy</a> · <a href="{up}terms/">Terms</a></p>
+  <p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="{up}support/">Support</a> · <a href="{up}privacy/">Privacy</a> · <a href="{up}terms/">Terms</a></p>
 </footer>
 </body>
 </html>
